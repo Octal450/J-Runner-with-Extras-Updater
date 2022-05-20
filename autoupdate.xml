@@ -1,17 +1,21 @@
 <jrunner>
 	<changelog>
-V3.1.4:
-- Added: XL USB support
+V3.1.5:
 - Added: Improved updater
-- Added: Alert if dangerous nand is loaded
+- Added: xFlasher can now check CB
+- Added: Alert when a bad block in a critical area is detected
+- Fixed: SVF/XSVF file open bug
+- Fixed: RGH3 image creation bugs
+- Fixed: XDKbuild image creation bugs
 - Fixed: Various bugs and usability issues
+- Fixed: Bug causing XDKbuild Trinity BB images to fail
 - Changed: Preparing the platform for future updates
-- Changed: Cleaned up unused code
+- Changed: Updater now requires TLS1.2
 	</changelog>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.1.4/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.1.4/J-Runner-with-Extras.zip</full>
-	<md5-delta>E48A548B0E781CBA8FD6A8779B5D15EC</md5-delta>
-	<md5-full>5F1E6B002BF18511264615184C438E5F</md5-full>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.1.5/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.1.5/J-Runner-with-Extras.zip</full>
+	<md5-delta>6747E93EF9BE6E210FD64B28A97E245D</md5-delta>
+	<md5-full>2CFD889AFFDE884EA067024391A1F75D</md5-full>
 	<min-delta-revision>13</min-delta-revision>
-	<revision>21</revision>
+	<revision>22</revision>
 </jrunner>

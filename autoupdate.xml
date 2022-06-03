@@ -1,21 +1,16 @@
 <jrunner>
 	<changelog>
-V3.1.5:
-- Added: Improved updater
-- Added: xFlasher can now check CB
-- Added: Alert when a bad block in a critical area is detected
-- Fixed: SVF/XSVF file open bug
-- Fixed: RGH3 image creation bugs
-- Fixed: XDKbuild image creation bugs
-- Fixed: Various bugs and usability issues
-- Fixed: Bug causing XDKbuild Trinity BB images to fail
-- Changed: Preparing the platform for future updates
-- Changed: Updater now requires TLS1.2
+V3.1.5b:
+- Added: Proper support for high DPI displays
+- Fixed: Snapping/resizing issues on high DPI displays
+- Fixed: Some dialogs did not fit all elements on high DPI displays
+- Fixed: Duplicate directory creation issues
+- Fixed: Minor bugs in the platform
 	</changelog>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.1.5/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.1.5/J-Runner-with-Extras.zip</full>
-	<md5-delta>6747E93EF9BE6E210FD64B28A97E245D</md5-delta>
-	<md5-full>2CFD889AFFDE884EA067024391A1F75D</md5-full>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.1.5b/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.1.5b/J-Runner-with-Extras.zip</full>
+	<md5-delta>717A95052DB2B8235714F15D96C6D3F1</md5-delta>
+	<md5-full>599AC3B67F4465278E66B1766846BC0D</md5-full>
 	<min-delta-revision>13</min-delta-revision>
-	<revision>22</revision>
+	<revision>23</revision>
 </jrunner>

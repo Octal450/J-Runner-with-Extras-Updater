@@ -1,16 +1,36 @@
 <jrunner>
 	<changelog>
-V3.1.5b:
-- Added: Proper support for high DPI displays
-- Fixed: Snapping/resizing issues on high DPI displays
-- Fixed: Some dialogs did not fit all elements on high DPI displays
-- Fixed: Duplicate directory creation issues
-- Fixed: Minor bugs in the platform
+- Added: Improved and enhanced UI
+- Added: Auto folder/zip backup system (optional)
+- Added: Minor enhancements throughout the application
+- Added: CB combo box now pulls ALL CB versions from ini and sorts numerically
+- Added: Standalone ability to convert image to RGH3
+- Added: Visual indicator for RGH3 nands
+- Added: Support for Corona BB
+- Added: More intelligent detection of nand type
+- Added: Improved folder scheme handling
+- Added: XL HDD support
+- Added: XL USB updated: Improved game compatibility
+- Fixed: Few RGH3 building issues
+- Fixed: CPU Key Database UI issues
+- Fixed: Kernel dropdown configuration bugs
+- Fixed: UI issues on high DPI monitors
+- Fixed: Buggy behavior with NAND-X/JR-P reading in certain modes
+- Fixed: Unnecessary delays during some operations
+- Fixed: Crashing issues on some systems when moving files after CPU Key entry
+- Fixed: Crash if entering CPU Key while reading/writing
+- Fixed: Invalid ability to load nand while the file is in use
+- Fixed: Some CBs had wrong reference LDV
+- Fixed: Out of sequence operation on nand initialization
+- Fixed: Progress bar stuck bug
+- Fixed: Various bugs and usability issues
+- Changed: Simplified some unneeded complexity
+- Changed: Don't revert hack type on CPU Key entry if the user changed it
 	</changelog>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.1.5b/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.1.5b/J-Runner-with-Extras.zip</full>
-	<md5-delta>717A95052DB2B8235714F15D96C6D3F1</md5-delta>
-	<md5-full>599AC3B67F4465278E66B1766846BC0D</md5-full>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.0/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.0/J-Runner-with-Extras.zip</full>
+	<md5-delta>8C8206CB66AD15877396EEA4D951D196</md5-delta>
+	<md5-full>F625222EF2BD5A01C2EFB40B15A13DEA</md5-full>
 	<min-delta-revision>13</min-delta-revision>
-	<revision>23</revision>
+	<revision>26</revision>
 </jrunner>

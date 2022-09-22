@@ -1,36 +1,24 @@
 <jrunner>
 	<changelog>
+V3.2.1: September Update
 - Added: Improved and enhanced UI
-- Added: Auto folder/zip backup system (optional)
-- Added: Minor enhancements throughout the application
-- Added: CB combo box now pulls ALL CB versions from ini and sorts numerically
-- Added: Standalone ability to convert image to RGH3
-- Added: Visual indicator for RGH3 nands
-- Added: Support for Corona BB
-- Added: More intelligent detection of nand type
-- Added: Improved folder scheme handling
-- Added: XL HDD support
-- Added: XL USB updated: Improved game compatibility
-- Fixed: Few RGH3 building issues
-- Fixed: CPU Key Database UI issues
-- Fixed: Kernel dropdown configuration bugs
-- Fixed: UI issues on high DPI monitors
-- Fixed: Buggy behavior with NAND-X/JR-P reading in certain modes
-- Fixed: Unnecessary delays during some operations
-- Fixed: Crashing issues on some systems when moving files after CPU Key entry
-- Fixed: Crash if entering CPU Key while reading/writing
-- Fixed: Invalid ability to load nand while the file is in use
-- Fixed: Some CBs had wrong reference LDV
-- Fixed: Out of sequence operation on nand initialization
-- Fixed: Progress bar stuck bug
-- Fixed: Various bugs and usability issues
-- Changed: Simplified some unneeded complexity
-- Changed: Don't revert hack type on CPU Key entry if the user changed it
+- Added: Ability to restore the filesystem to a clean state
+- Added: Auto select RGH3 if a RGH3 image is loaded
+- Added: Auto select XL USB or XL HDD if a nand with them is loaded
+- Added: Improved SMC Config Editor
+- Added: Easy restore defaults option for temperature targets
+- Added: CB LDV and Pairing Data information
+- Added: Detection if required folders are missing
+- Added: Xenon/Zephyr EXT_CLK Timings
+- Fixed: Many wrong CB LDVs in CB Fuse Table
+- Fixed: Possible ECC write bug
+- Fixed: Issues with Custom XeBuild option
+- Changed: Cleaned up some areas of the UI
 	</changelog>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.0/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.0/J-Runner-with-Extras.zip</full>
-	<md5-delta>8C8206CB66AD15877396EEA4D951D196</md5-delta>
-	<md5-full>F625222EF2BD5A01C2EFB40B15A13DEA</md5-full>
-	<min-delta-revision>13</min-delta-revision>
-	<revision>26</revision>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1/J-Runner-with-Extras.zip</full>
+	<md5-delta>2CE5DFF496A0E2850F34F4C9C2619BD1</md5-delta>
+	<md5-full>DA34A28AAA4D2CF730ADBBE7BDFA8F1B</md5-full>
+	<min-delta-revision>26</min-delta-revision>
+	<revision>27</revision>
 </jrunner>

@@ -1,24 +1,20 @@
 <jrunner>
 	<changelog>
-V3.2.1: September Update
-- Added: Improved and enhanced UI
-- Added: Ability to restore the filesystem to a clean state
-- Added: Auto select RGH3 if a RGH3 image is loaded
-- Added: Auto select XL USB or XL HDD if a nand with them is loaded
-- Added: Improved SMC Config Editor
-- Added: Easy restore defaults option for temperature targets
-- Added: CB LDV and Pairing Data information
-- Added: Detection if required folders are missing
-- Added: Xenon/Zephyr EXT_CLK Timings
-- Fixed: Many wrong CB LDVs in CB Fuse Table
-- Fixed: Possible ECC write bug
-- Fixed: Issues with Custom XeBuild option
-- Changed: Cleaned up some areas of the UI
+V3.2.1 r2: October Quality Update
+- Added: Ability to easily load XeLL images for donor use
+- Added: UI layout tweaks
+- Fixed: Several issues and desyncs with the CPU Key Database
+- Fixed: CB LDV might show an invalid number on encrypted CBs
+- Fixed: CB Pairing Data might show garbage when the data is invalid
+- Fixed: NAND-X/JR-P cancel loop issues
+- Fixed: Various bugs and usability issues
+- Changed: CB LDV and Pairing Data now blank when data is invalid
+- Changed: Cleanup the filesystem
 	</changelog>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1/J-Runner-with-Extras.zip</full>
-	<md5-delta>2CE5DFF496A0E2850F34F4C9C2619BD1</md5-delta>
-	<md5-full>DA34A28AAA4D2CF730ADBBE7BDFA8F1B</md5-full>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r2/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r2/J-Runner-with-Extras.zip</full>
+	<md5-delta>D5214809975C22ECB20C96CAC55935C0</md5-delta>
+	<md5-full>8AE776AC09C2FD589FF965BC0F6C8086</md5-full>
 	<min-delta-revision>26</min-delta-revision>
-	<revision>27</revision>
+	<revision>28</revision>
 </jrunner>

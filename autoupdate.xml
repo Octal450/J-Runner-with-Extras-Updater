@@ -1,4 +1,10 @@
 <jrunner>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r2/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r2/J-Runner-with-Extras.zip</full>
+	<md5-delta>D5214809975C22ECB20C96CAC55935C0</md5-delta>
+	<md5-full>8AE776AC09C2FD589FF965BC0F6C8086</md5-full>
+	<min-delta-revision>26</min-delta-revision>
+	<revision>28</revision>
 	<changelog>
 V3.2.1 r2: October Quality Update
 - Added: Ability to easily load XeLL images for donor use
@@ -11,10 +17,269 @@ V3.2.1 r2: October Quality Update
 - Changed: CB LDV and Pairing Data now blank when data is invalid
 - Changed: Cleanup the filesystem
 	</changelog>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r2/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r2/J-Runner-with-Extras.zip</full>
-	<md5-delta>D5214809975C22ECB20C96CAC55935C0</md5-delta>
-	<md5-full>8AE776AC09C2FD589FF965BC0F6C8086</md5-full>
-	<min-delta-revision>26</min-delta-revision>
-	<revision>28</revision>
+	<changelog-multi>
+V3.2.1 r2:
+- Added: Ability to easily load XeLL images for donor use
+- Added: UI layout tweaks
+- Fixed: Several issues and desyncs with the CPU Key Database
+- Fixed: CB LDV might show an invalid number on encrypted CBs
+- Fixed: CB Pairing Data might show garbage when the data is invalid
+- Fixed: NAND-X/JR-P cancel loop issues
+- Fixed: Various bugs and usability issues
+- Changed: CB LDV and Pairing Data now blank when data is invalid
+- Changed: Cleanup the filesystem
+
+V3.2.1:
+- Added: Improved and enhanced UI
+- Added: Ability to restore the filesystem to a clean state
+- Added: Auto select RGH3 if a RGH3 image is loaded
+- Added: Auto select XL USB or XL HDD if a nand with them is loaded
+- Added: Improved SMC Config Editor
+- Added: Easy restore defaults option for temperature targets
+- Added: CB LDV and Pairing Data information
+- Added: Detection if required folders are missing
+- Added: Xenon/Zephyr EXT_CLK Timings
+- Fixed: Many wrong CB LDVs in CB Fuse Table
+- Fixed: Possible ECC write bug
+- Fixed: Issues with Custom XeBuild option
+- Changed: Cleaned up some areas of the UI
+
+V3.2.0:
+- Added: Improved and enhanced UI
+- Added: Auto folder/zip backup system (optional)
+- Added: Minor enhancements throughout the application
+- Added: CB combo box now pulls ALL CB versions from ini and sorts numerically
+- Added: Standalone ability to convert image to RGH3
+- Added: Visual indicator for RGH3 nands
+- Added: Support for Corona BB
+- Added: More intelligent detection of nand type
+- Added: Improved folder scheme handling
+- Added: XL HDD support
+- Added: XL USB updated: Improved game compatibility
+- Fixed: Few RGH3 building issues
+- Fixed: CPU Key Database UI issues
+- Fixed: Kernel dropdown configuration bugs
+- Fixed: UI issues on high DPI monitors
+- Fixed: Buggy behavior with NAND-X/JR-P reading in certain modes
+- Fixed: Unnecessary delays during some operations
+- Fixed: Crashing issues on some systems when moving files after CPU Key entry
+- Fixed: Crash if entering CPU Key while reading/writing
+- Fixed: Invalid ability to load nand while the file is in use
+- Fixed: Some CBs had wrong reference LDV
+- Fixed: Out of sequence operation on nand initialization
+- Fixed: Progress bar stuck bug
+- Fixed: Various bugs and usability issues
+- Changed: Simplified some unneeded complexity
+- Changed: Don't revert hack type on CPU Key entry if the user changed it
+
+V3.1.5b:
+- Added: Proper support for high DPI displays
+- Fixed: Snapping/resizing issues on high DPI displays
+- Fixed: Some dialogs did not fit all elements on high DPI displays
+- Fixed: Duplicate directory creation issues
+- Fixed: Minor bugs in the platform
+
+V3.1.5:
+- Added: Improved updater
+- Added: xFlasher can now check CB
+- Added: Alert when a bad block in a critical area is detected
+- Fixed: SVF/XSVF file open bug
+- Fixed: RGH3 image creation bugs
+- Fixed: XDKbuild image creation bugs
+- Fixed: Various bugs and usability issues
+- Fixed: Bug causing XDKbuild Trinity BB images to fail
+- Changed: Preparing the platform for future updates
+- Changed: Updater now requires TLS1.2
+
+V3.1.4:
+- Added: XL USB support
+- Added: Improved updater
+- Added: Alert if dangerous nand is loaded
+- Fixed: Various bugs and usability issues
+- Changed: Preparing the platform for future updates
+- Changed: Cleaned up unused code
+
+V3.1.3:
+- Added: Correct folder picker instead of legacy tree picker
+- Added: Improved GUI
+- Fixed: Error if COM port is in use
+- Fixed: Donor Nand Creator did not allow 512KB SMC Config to be used
+- Fixed: Incorrect handling of xefolder during nand manipulation
+- Fixed: Glitch availability should be checked by CB not dash
+- Fixed: UI scheduling bug causing out of order operation
+- Fixed: Kernel version list not sorted numerically
+- Fixed: Bug with Trinity BB handling
+- Fixed: Various bugs and usability issues
+- Changed: Preparing the platform for future updates
+- Changed: Hard OS floor is now Windows Vista SP2 or later (dotNET 4.5.2)
+
+V3.1.2:
+- Added: Support for PicoFlasher eMMC
+- Fixed: Donor Nand Creator invalid state issue
+- Fixed: Progress bar bug
+- Fixed: Some devices didn't reload nand into source after ECC write
+- Fixed: JR-Programmer ISD programming bugs
+- Fixed: Various bugs and usability issues
+- Fixed: Scheduling issues causing crashes on some systems
+- Changed: Standardized device console messages
+- Changed: Standardized device behavior in read/write
+
+V3.1.1:
+- Added: Support for PicoFlasher
+- Added: Updserv v3
+- Added: Ability to create RGH3 XDKbuild images
+- Fixed: Various bugs and usability issues
+- Changed: NandPro version for Corona
+
+V3.1.0c:
+- Added: Ability to save Fuses.txt to Working Folder or Desktop
+- Added: Support for Trinity BB
+- Added: Improved GUI
+- Fixed: Various application back-end issues
+- Fixed: Switching Console ID display mode causing an exception if no nand loaded
+- Fixed: UI bug with bigffs
+- Fixed: Bugs with CPU Key Database search function
+- Fixed: IP Scanner left in invalid state after finding console
+- Fixed: Various bugs and usability issues
+
+V3.1.0b:
+- Added: File drag and drop for Donor Nand Creator and KV Decrypter
+- Added: Custom SMC Config selection in Donor Nand Creator
+- Fixed: Patches not being reset properly
+- Fixed: Invalid state causing Donor Nand Creator to not recognize console type
+- Fixed: New XeLL not launching ELF files correctly
+- Fixed: Post V3.1.0 release bugs
+
+V3.1.0:
+- Added: Improved functionality and speed of updater
+- Added: Improved GUI
+- Added: Refinements to Nand Info/KV Info panels
+- Added: Ability to end the session and start a new one
+- Added: RGH1.2 V2 timings for Slims
+- Added: Donor Nand Creation and KV Decrypter tools
+- Added: RGH3 ECC and Freeboot build support
+- Added: Better drivers for NAND-X and JRP
+- Added: Improved XeLL Reloaded, built with the newest fixes
+- Added: Better MTX USB Firmware Utility
+- Added: Friendly console ID decoding in Nand Info
+- Added: xFlasher support for Start Block and Length parameters
+- Added: Improved LibUsb implementation
+- Fixed: Buggy and broken behavior of IP configuration
+- Fixed: Nand not being correctly initialized before CPU Key retrieval
+- Fixed: Improved behavior when setting working directory
+- Fixed: JTAG XeLL creation issue
+- Fixed: Device detection issue
+- Fixed: Update JRP firmware not prompting for hex if nand loaded
+- Fixed: eMMC read ignoring iterations selected if opened from Advanced menu
+- Fixed: Tray icon being left in system tray occaisionally
+- Fixed: Various bugs and usability issues
+- Changed: Reworked MTX USB Mode
+- Changed: The program now checks for updates and starts much faster
+- Changed: Improved spawn location of subforms
+- Changed: Replaced annoying balloon on startup with taskbar icon
+
+V3.0.3b:
+- Added: Default dash selection to 17559 if no saved dash is present
+- Fixed: Loop between dialogs and installer if Visual C++ Redistributable is cancelled or fails
+- Fixed: Repeated clicking not ignored while xFlasher is initializing causing application to crash
+- Fixed: Issue causing Extract Files to cause a crash after files are moved to serial folder
+- Changed: XDKbuild check box behavior
+
+V3.0.3:
+- Added: Inhibit errors while the xFlasher initializes and queue commands until its ready
+- Added: SMC+ 1.1 ECCs
+- Added: Corona ECCs fixed for RGH1.2 all configurations
+- Added: Option to minimize application into tray icon
+- Fixed: xFlasher not releasing file when read/write is aborted
+- Fixed: xFlasher abort during writing did not display "Aborted"
+- Fixed: Crashing after 4GB reading on some systems due to too many simultaneous operations
+- Fixed: OS detection bug
+- Fixed: NAND not reloaded after patching KV
+- Fixed: Erroneous creation of empty "Logs" directory
+- Fixed: Keygen false positive detection on some antivirus software
+- Fixed: Issue with minimize/restore
+- Fixed: Various bugs and usability issues
+- Changed: Patching SMC Config is now seamless, no need to reload file
+- Changed: Zephyr Glitch2 now build ECCs and XeBuild as Falcon, no more need to manually change
+- Changed: Xenon Glitch2 now builds XeBuild as Falcon, no more need to manually change
+- Changed: Winbond 2K options are now on the main XeBuild tab
+
+V3.0.2b:
+- Added: xFlasher support for Xilinx XC2C64A-VQ100 for Matrix "Super-Big-IC"
+- Added: Better grabbing of CPLD type for xFlasher
+- Added: Ability to abort xFlasher SPI read/write via Esc key
+- Fixed: Incorrect display of xFlasher initializing
+- Fixed: Post-release bugs with xFlasher implementation
+- Fixed: 32-bit xFlasher dependancy detection
+- Fixed: Crashing issue with xFlasher and some antivirus software
+- Fixed: Various bugs and usability issues
+
+V3.0.2:
+- Added: Totally redone xFlasher integration with custom SPI DLL
+- Added: xFlasher now shows blocks during read/write and proper progress
+- Added: xFlasher alerts user when trying to write a eMMC image in SPI mode
+- Added: xFlasher alerts user when trying to program a timing in eMMC mode
+- Added: Clean SMC building option for Retail and DEVGL
+- Added: Support for the final xFlasher product
+- Added: Support for XDKbuild
+- Added: Improved updater
+- Added: Automatic detection of xFlasher dependencies
+- Fixed: Invalid hack types not greyed out after setting board type
+- Fixed: Zephyr timing info
+- Fixed: Buggy and bad handling of Winbond 2K radio buttons
+- Fixed: Various bugs and usability issues
+- Changed: Updater now shows download progress
+- Changed: Fixed dashlaunch XeBuild settings
+
+V3.0.1:
+- Added: XeBuild and Dashlaunch version info
+- Added: F3 and F4 shortcut keys to open Program Timing File and Custom Nand Args
+- Added: Updater now shows changelog
+- Added: xFlasher can now handle Xenon/Zephyr/Falcon 64MB (Devkit) NANDs
+- Added: 0 Fuse DEVGL building options
+- Fixed: Cannot write ECCs via Custom Nand Args with xFlasher
+- Fixed: Glitch ECC made on 14699 and older NAND even if Glitch2 is selected
+- Fixed: Various bugs and usability issues
+- Fixed: Buggy and bad handling of hack type radio buttons
+- Fixed: Zephyr radio buttons didn't properly deselect other timing groups
+- Fixed: Patching or extracting NANDs doesn't save to working folder
+- Fixed: Name of XC2C64A showing as XC2C64
+- Changed: Creating NAND from scratch does not require an SMC.bin if using Glitch2 CR4 or SMC+ SMCs
+- Changed: Made xFlasher detect motherboards faster
+- Changed: Huge improvements to COM Port Monitor
+- Changed: Cleanup some UI elements
+- Changed: Updates to some included timing files
+
+V3.0.0d:
+- Added: xFlasher support for Xilinx XC2C64A-FG48 for Matrix "Small-IC"
+- Added: xFlasher can now detect and check flash configs and motherboards
+- Added: xFlasher automatic board type detection on reading/writing
+- Added: Query console button works with xFlasher now
+- Fixed: Cannot write JTAG XeLL bins with xFlasher
+- Fixed: Bug with timing programming of Zephyr timings
+- Fixed: Various bugs and usability issues
+- Fixed: Scan IP for console bug
+- Changed: Tweaks to included timing files
+
+V3.0.0c:
+- Added: SMC+ 1.1: CR4 slowdown instructions added
+- Fixed: Various bugs and usability issues
+- Changed: Improved xFlasher Glitch Chip detection
+
+V3.0.0b:
+- Added: 6717 Retail generation
+- Fixed: Bug in xFlasher implementation
+- Fixed: Bugs in UI
+- Changed: Timing Assistant Jasper updated
+
+V3.0.0:
+- Added: Update check and auto update
+- Added: Native xFlasher support (for xFlasher and others)
+- Added: SVF programming with xFlasher
+- Added: New RGH2 timings for Zephyr
+- Fixed: DemoN never sets progress to 100%
+- Fixed: No chime on 4GB
+- Fixed: Various bugs and usability issues
+- Fixed: Scan IP for console
+	</changelog-multi>
 </jrunner>

@@ -1,23 +1,24 @@
 <jrunner>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r2/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r2/J-Runner-with-Extras.zip</full>
-	<md5-delta>D5214809975C22ECB20C96CAC55935C0</md5-delta>
-	<md5-full>8AE776AC09C2FD589FF965BC0F6C8086</md5-full>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r3/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r3/J-Runner-with-Extras.zip</full>
+	<md5-delta>C64AF41DE6AC09AD9AA52A269E306D97</md5-delta>
+	<md5-full>2781F227C4ED2C17FCDEBFB15EF03290</md5-full>
 	<min-delta-revision>26</min-delta-revision>
-	<revision>28</revision>
+	<revision>29</revision>
 	<changelog>
-V3.2.1 r2: October Quality Update
-- Added: Ability to easily load XeLL images for donor use
-- Added: UI layout tweaks
-- Fixed: Several issues and desyncs with the CPU Key Database
-- Fixed: CB LDV might show an invalid number on encrypted CBs
-- Fixed: CB Pairing Data might show garbage when the data is invalid
-- Fixed: NAND-X/JR-P cancel loop issues
-- Fixed: Various bugs and usability issues
-- Changed: CB LDV and Pairing Data now blank when data is invalid
-- Changed: Cleanup the filesystem
+V3.2.1 r3:
+- Fixed: NAND-X/JR-P BB writing incorrectly
+- Fixed: Error finding file when creating Glitch XeLL
+- Fixed: JTAG XeLL not writing with PicoFlasher
+- Fixed: Corona BB writing issue
 	</changelog>
 	<changelog-multi>
+V3.2.1 r3:
+- Fixed: NAND-X/JR-P BB writing incorrectly
+- Fixed: Error finding file when creating Glitch XeLL
+- Fixed: JTAG XeLL not writing with PicoFlasher
+- Fixed: Corona BB writing issue
+
 V3.2.1 r2:
 - Added: Ability to easily load XeLL images for donor use
 - Added: UI layout tweaks

@@ -1,7 +1,7 @@
 <jrunner>
 	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r3/JR-Auto-Update-Delta.zip</delta>
 	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r3/J-Runner-with-Extras.zip</full>
-	<md5-delta>C64AF41DE6AC09AD9AA52A269E306D97</md5-delta>
+	<md5-delta>DF90155625B056B7524D8D7407485789</md5-delta>
 	<md5-full>2781F227C4ED2C17FCDEBFB15EF03290</md5-full>
 	<min-delta-revision>26</min-delta-revision>
 	<revision>29</revision>

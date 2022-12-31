@@ -1,18 +1,34 @@
 <jrunner>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r3/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.1-r3/J-Runner-with-Extras.zip</full>
-	<md5-delta>DF90155625B056B7524D8D7407485789</md5-delta>
-	<md5-full>2781F227C4ED2C17FCDEBFB15EF03290</md5-full>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2/J-Runner-with-Extras.zip</full>
+	<md5-delta>26D2EDABD48527AF0F3E8BB59758862A</md5-delta>
+	<md5-full>7E6D404F68359744D7D300109ED3A6BD</md5-full>
 	<min-delta-revision>26</min-delta-revision>
-	<revision>29</revision>
+	<revision>30</revision>
 	<changelog>
-V3.2.1 r3:
-- Fixed: NAND-X/JR-P BB writing incorrectly
-- Fixed: Error finding file when creating Glitch XeLL
-- Fixed: JTAG XeLL not writing with PicoFlasher
-- Fixed: Corona BB writing issue
+V3.2.2:
+- Added: Improved and enhanced UI
+- Added: New updater UI
+- Added: Improved updater logic
+- Added: Significant internal optimization
+- Added: 4GB writing now shows MB progress
+- Added: Proper OpenXenium CPLD flashing for xFlasher
+- Fixed: Sequencing issues in certain operations
+- Fixed: PicoFlasher JTAG XeLL writing issue
+- Fixed: Various bugs and usability issues
 	</changelog>
 	<changelog-multi>
+V3.2.2:
+- Added: Improved and enhanced UI
+- Added: New updater UI
+- Added: Improved updater logic
+- Added: Significant internal optimization
+- Added: 4GB writing now shows MB progress
+- Added: Proper OpenXenium CPLD flashing for xFlasher
+- Fixed: Sequencing issues in certain operations
+- Fixed: PicoFlasher JTAG XeLL writing issue
+- Fixed: Various bugs and usability issues
+
 V3.2.1 r3:
 - Fixed: NAND-X/JR-P BB writing incorrectly
 - Fixed: Error finding file when creating Glitch XeLL

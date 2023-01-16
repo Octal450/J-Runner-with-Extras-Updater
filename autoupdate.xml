@@ -1,23 +1,32 @@
 <jrunner>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2/J-Runner-with-Extras.zip</full>
-	<md5-delta>26D2EDABD48527AF0F3E8BB59758862A</md5-delta>
-	<md5-full>7E6D404F68359744D7D300109ED3A6BD</md5-full>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2-r2/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2-r2/J-Runner-with-Extras.zip</full>
+	<md5-delta>6BF61ADFC530A1B5815ED1A4FC6554EC</md5-delta>
+	<md5-full>707922F05ED0EE3B40AFB814D98331E5</md5-full>
 	<min-delta-revision>26</min-delta-revision>
-	<revision>30</revision>
+	<revision>31</revision>
 	<changelog>
-V3.2.2:
-- Added: Improved and enhanced UI
-- Added: New updater UI
-- Added: Improved updater logic
-- Added: Significant internal optimization
-- Added: 4GB writing now shows MB progress
-- Added: Proper OpenXenium CPLD flashing for xFlasher
-- Fixed: Sequencing issues in certain operations
-- Fixed: PicoFlasher JTAG XeLL writing issue
-- Fixed: Various bugs and usability issues
+V3.2.2 r2:
+- Added: Ability to abort PicoFlasher read/write with Esc
+- Added: Catch more Pico side errors gracefully
+- Added: UsbdSec Patch support
+- Fixed: Older dash packages failing to load
+- Fixed: PicoFlasher 4GB console message mistake
+- Fixed: PicoFlasher not interacting with read/write status
+- Fixed: Checkbox UI bug
+- Fixed: Other minor bugs and issues
 	</changelog>
 	<changelog-multi>
+V3.2.2 r2:
+- Added: Ability to abort PicoFlasher read/write with Esc
+- Added: Catch more Pico side errors gracefully
+- Added: UsbdSec Patch support
+- Fixed: Older dash packages failing to load
+- Fixed: PicoFlasher 4GB console message mistake
+- Fixed: PicoFlasher not interacting with read/write status
+- Fixed: Checkbox UI bug
+- Fixed: Other minor bugs and issues
+
 V3.2.2:
 - Added: Improved and enhanced UI
 - Added: New updater UI

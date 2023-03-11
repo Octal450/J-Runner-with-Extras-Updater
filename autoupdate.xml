@@ -1,22 +1,30 @@
 <jrunner>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2-r2/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2-r2/J-Runner-with-Extras.zip</full>
-	<md5-delta>6BF61ADFC530A1B5815ED1A4FC6554EC</md5-delta>
-	<md5-full>707922F05ED0EE3B40AFB814D98331E5</md5-full>
-	<min-delta-revision>26</min-delta-revision>
-	<revision>31</revision>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2-r3/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2-r3/J-Runner-with-Extras.zip</full>
+	<md5-delta>5AFCC19474FD11785FF013BDA917B9FB</md5-delta>
+	<md5-full>4D392BCB05C5B9F4994FA7C3C579CEBE</md5-full>
+	<min-delta-revision>31</min-delta-revision>
+	<revision>32</revision>
 	<changelog>
-V3.2.2 r2:
-- Added: Ability to abort PicoFlasher read/write with Esc
-- Added: Catch more Pico side errors gracefully
-- Added: UsbdSec Patch support
-- Fixed: Older dash packages failing to load
-- Fixed: PicoFlasher 4GB console message mistake
-- Fixed: PicoFlasher not interacting with read/write status
-- Fixed: Checkbox UI bug
-- Fixed: Other minor bugs and issues
+V3.2.2 r3:
+- Added: Reworked Advanced XeBuild Options panel
+- Added: Updated XL HDD and XL USB patches
+- Added: Improved UI for some dialogs
+- Fixed: Minor UI issues
+- Fixed: Broken tooltips in XeBuild panel
+- Fixed: Tab ordering in certain areas
+- Fixed: Various bugs and usability issues
 	</changelog>
 	<changelog-multi>
+V3.2.2 r3:
+- Added: Reworked Advanced XeBuild Options panel
+- Added: Updated XL HDD and XL USB patches
+- Added: Improved UI for some dialogs
+- Fixed: Minor UI issues
+- Fixed: Broken tooltips in XeBuild panel
+- Fixed: Tab ordering in certain areas
+- Fixed: Various bugs and usability issues
+
 V3.2.2 r2:
 - Added: Ability to abort PicoFlasher read/write with Esc
 - Added: Catch more Pico side errors gracefully

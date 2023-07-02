@@ -1,21 +1,54 @@
 <jrunner>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2-r3/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.2.2-r3/J-Runner-with-Extras.zip</full>
-	<md5-delta>5AFCC19474FD11785FF013BDA917B9FB</md5-delta>
-	<md5-full>4D392BCB05C5B9F4994FA7C3C579CEBE</md5-full>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.3.0/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.3.0/J-Runner-with-Extras.zip</full>
+	<md5-delta>DE83B8BAFA53B249156C9AB9B2857F5A</md5-delta>
+	<md5-full>AEBB790C73E7F0CAA55106943853F0A0</md5-full>
 	<min-delta-revision>31</min-delta-revision>
-	<revision>32</revision>
+	<revision>35</revision>
 	<changelog>
-V3.2.2 r3:
-- Added: Reworked Advanced XeBuild Options panel
-- Added: Updated XL HDD and XL USB patches
+V3.3.0: Re-released to fix critical bug
+- Added: Improved UI
+- Added: Support for 64MB Small Block images (XDK)
+- Added: Nand Info now displays SMC version
+- Added: Double click text boxes to copy value to clipboard
+- Added: Ability to edit KV MFR date
+- Added: Toggle for saving backups when editing KV or SMC Config
+- Added: Added 4580 CB to 6717 for certain JTAGable Zephyrs
+- Added: Automatically focus the IP entry box after writing XeLL
+- Added: EXT_CLK XDKbuild timings for Xenon and Zephyr
 - Added: Improved UI for some dialogs
-- Fixed: Minor UI issues
-- Fixed: Broken tooltips in XeBuild panel
-- Fixed: Tab ordering in certain areas
+- Fixed: Certain OSIGs not working properly in Patch KV
+- Fixed: XL HDD not working properly on JTAG images
+- Fixed: Invalid characters causing the Donor Nand Wizard to crash
+- Fixed: Bugs with Corona BB console type
+- Fixed: Mistake in xFlasher JTAG programming definitions
+- Fixed: SMC Config Editor bugfix
+- Fixed: Certain config blocks causing SMC Config Editor to crash
+- Fixed: Erroneous Unrecognized Flash Config message with 64MB
 - Fixed: Various bugs and usability issues
 	</changelog>
 	<changelog-multi>
+V3.3.0: Re-released to fix critical bug
+- Added: Improved UI
+- Added: Support for 64MB Small Block images (XDK)
+- Added: Nand Info now displays SMC version
+- Added: Double click text boxes to copy value to clipboard
+- Added: Ability to edit KV MFR date
+- Added: Toggle for saving backups when editing KV or SMC Config
+- Added: Added 4580 CB to 6717 for certain JTAGable Zephyrs
+- Added: Automatically focus the IP entry box after writing XeLL
+- Added: EXT_CLK XDKbuild timings for Xenon and Zephyr
+- Added: Improved UI for some dialogs
+- Fixed: Certain OSIGs not working properly in Patch KV
+- Fixed: XL HDD not working properly on JTAG images
+- Fixed: Invalid characters causing the Donor Nand Wizard to crash
+- Fixed: Bugs with Corona BB console type
+- Fixed: Mistake in xFlasher JTAG programming definitions
+- Fixed: SMC Config Editor bugfix
+- Fixed: Certain config blocks causing SMC Config Editor to crash
+- Fixed: Erroneous Unrecognized Flash Config message with 64MB
+- Fixed: Various bugs and usability issues
+
 V3.2.2 r3:
 - Added: Reworked Advanced XeBuild Options panel
 - Added: Updated XL HDD and XL USB patches

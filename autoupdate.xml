@@ -1,12 +1,17 @@
 <jrunner>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.3.0/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.3.0/J-Runner-with-Extras.zip</full>
-	<md5-delta>DE83B8BAFA53B249156C9AB9B2857F5A</md5-delta>
-	<md5-full>AEBB790C73E7F0CAA55106943853F0A0</md5-full>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.3.0-r2/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.3.0-r2/J-Runner-with-Extras.zip</full>
+	<md5-delta>6BBA2C837DCC55F8517BA6999B9DAD82</md5-delta>
+	<md5-full>CD6065EA204762228D1CFF8EA46CF5A9</md5-full>
 	<min-delta-revision>31</min-delta-revision>
-	<revision>35</revision>
+	<revision>36</revision>
 	<changelog>
-V3.3.0: Re-released to fix critical bug
+V3.3.0 r2:
+- Added: Improved New Session command
+- Added: Updated XL HDD patch
+- Fixed: Corona 4GB image detection issue
+
+V3.3.0:
 - Added: Improved UI
 - Added: Support for 64MB Small Block images (XDK)
 - Added: Nand Info now displays SMC version
@@ -28,7 +33,12 @@ V3.3.0: Re-released to fix critical bug
 - Fixed: Various bugs and usability issues
 	</changelog>
 	<changelog-multi>
-V3.3.0: Re-released to fix critical bug
+V3.3.0 r2:
+- Added: Improved New Session command
+- Added: Updated XL HDD patch
+- Fixed: Corona 4GB image detection issue
+
+V3.3.0:
 - Added: Improved UI
 - Added: Support for 64MB Small Block images (XDK)
 - Added: Nand Info now displays SMC version

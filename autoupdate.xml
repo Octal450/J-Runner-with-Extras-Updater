@@ -1,22 +1,114 @@
 <jrunner>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.3.0-r4/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.3.0-r4/J-Runner-with-Extras.zip</full>
-	<md5-delta>5B1CB4B613CD03A3AB577300CDBD1C1C</md5-delta>
-	<md5-full>5BF3C19E2D29F0A3515E50C3281A1A6B</md5-full>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.4.0-r2/JR-Auto-Update-Delta.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.4.0-r2/J-Runner-with-Extras.zip</full>
+	<md5-delta>67D38FDCF859000DCE277AEA0EEB1C1E</md5-delta>
+	<md5-full>32F0C231F7E52177541DC9E400E323F4</md5-full>
 	<min-delta-revision>31</min-delta-revision>
-	<revision>38</revision>
+	<revision>40</revision>
 	<changelog>
-V3.3.0 r4:
-- Added: Improved UI
-- Added: New CPU Key Gen UI
-- Fixed: JR-P and Pico JTAG XeLL write issue
-- Fixed: Obscure patch detection issue
-- Fixed: Crash due to invalid file state if XeBuild fails
-- Fixed: Xenon CB list
-- Fixed: Lowercase characters not converted in Patch KV
-- Fixed: Version 3 OpenXeniums not programming
+V3.4.0 r2:
+- Added: Improved console detection for RGH3 images
+- Added: Smarter console detection for Glitch2 Xenon (avoid showing as Falcon)
+- Added: SMC+ for Xenon (and Elpis)
+- Fixed: UI bugs
+- Fixed: Falcon RGH3 images showing as Jasper XSB
+- Fixed: Various minor issues
+
+V3.4.0:
+- Added: HddSsAuth patch for 17559 to fix FATXPlorer formatted hard drives with security sectors + unused space
+- Added: 2.0.1838.1 XDK beta dashboard (Y1 GPU Only, see zip file + README.md within for details)
+- Added: 1888 Retail dashboard (Phat consoles only)
+- Added: Feature to inject an arbitrary RGH3 or RGH 1.3 ECC under the experimental menu
+- Added: Ability to read CPU key from the virtual fuse set in the image if found
+- Added: Ability to parse early images that have different magic bytes
+- Added: Overclocked RGH3 ECCs (use with EXTREME CAUTION, but does boot better)
+- Added: DevGL patches for older dashboards (Credits: holofractal)
+- Added: Glitch2m patches for older dashboards
+- Added: Support for Glitch2 images on Elpis consoles with Samsung RAM (or Xenon with Rhea retrofit, by wurthless-electroniks)
+- Added: Support for the creation of DevGL/zero fuse XDKBuild images
+- Added: Generate old-style C-R.bin for LTU1 DVD firmware
+- Added: Support for 64mb DevGL/Zero Fuse XDKBuild images
+- Added: Allow text after the dashboard version number in dashboard folder names
+- Added: Ability to inject a new version of XeLL in to an existing NAND image or ECC
+- Added: Support to extend a 16MB image to 64MB
+- Added: Calculator to convert a logical NAND address to (no SPARE data) a physical image address (with SPARE data)
+- Added: Function to inject a KV into an existing NAND image
+- Added: Experimental: G3Fix to resolve compatibility issues with RGH3 and older dashboards (based on g3fix.py by wurthless-electroniks)
+- Fixed: Corona glitch2m patch set for 17559, 15574, 13604
+- Fixed: Warn when PicoFlasher detects an unknown flashconfig on read or write
+- Fixed: Extraction of C-R.bin and key.bin for Winchester consoles now works
+- Fixed: Decryption of devkit bootloader stages in for Extract Files now works correctly
+- Fixed: NAND info panel shows the correct bootloader names for retail and devkit, and properly parses RGH3 images
+- Fixed: RGH3 conversion works properly for non-XDKBuild glitch2m images
+- Fixed: glitch2m image creation now works for all phat board types (workaround added for a bug in XeBuild)
+- Fixed: Workaround for XeBuild bug where KV size being set to 0 for some image types (XeLL on Xenon now shows KV information)
+- Fixed: RGH2to3 now supports RGLoader style images (CB -> CD -> SE chain)
+- Changed: XSVFtool implemented for far better glitch chip programming with xFlasher (replacing UrJTAG)
+- Changed: CPU Key dialog text limit + verification button added
+- Changed: Don't use Falcon board type for everything (Falcon CB_B is still used for Zephyr/Xenon (unless Elpis/Rhea is checked)
+- Changed: The SMC reset limit patch won't be applied for DevGL or JTAG hack types (only Glitch and Glitch2 need it)
+- Changed: Create XeLL now injects the bundled version for JTAG and Glitch2 ECC creation
+- Changed: Updated bundled XeLL
+
+V3.4.0 Bundled XeLL changelog:
+- Fixed: updxell no longer bricks the system
+- Fixed: Virtual fuse support for non-JTAG images (avoid KV decryption errors for zero fuse/glitch2m images)
+- Fixed: Console detection can tell Xenon/Zephyr apart
+- Fixed: XeLL can now be started from the dashboard with XeLL Launch on a glitch or DevGL system
+- Changed: Now based on upstream Free60 XeLL/libxenon (includes a number of general fixes to XeLL/libxenon)
 	</changelog>
 	<changelog-multi>
+V3.4.0 r2:
+- Added: Improved console detection for RGH3 images
+- Added: Smarter console detection for Glitch2 Xenon (avoid showing as Falcon)
+- Added: SMC+ for Xenon (and Elpis)
+- Fixed: UI bugs
+- Fixed: Falcon RGH3 images showing as Jasper XSB
+- Fixed: Various minor issues
+
+V3.4.0:
+- Added: HddSsAuth patch for 17559 to fix FATXPlorer formatted hard drives with security sectors + unused space
+- Added: 2.0.1838.1 XDK beta dashboard (Y1 GPU Only, see zip file + README.md within for details)
+- Added: 1888 Retail dashboard (Phat consoles only)
+- Added: Feature to inject an arbitrary RGH3 or RGH 1.3 ECC under the experimental menu
+- Added: Ability to read CPU key from the virtual fuse set in the image if found
+- Added: Ability to parse early images that have different magic bytes
+- Added: Overclocked RGH3 ECCs (use with EXTREME CAUTION, but does boot better)
+- Added: DevGL patches for older dashboards (Credits: holofractal)
+- Added: Glitch2m patches for older dashboards
+- Added: Support for Glitch2 images on Elpis consoles with Samsung RAM (or Xenon with Rhea retrofit, by wurthless-electroniks)
+- Added: Support for the creation of DevGL/zero fuse XDKBuild images
+- Added: Generate old-style C-R.bin for LTU1 DVD firmware
+- Added: Support for 64mb DevGL/Zero Fuse XDKBuild images
+- Added: Allow text after the dashboard version number in dashboard folder names
+- Added: Ability to inject a new version of XeLL in to an existing NAND image or ECC
+- Added: Support to extend a 16MB image to 64MB
+- Added: Calculator to convert a logical NAND address to (no SPARE data) a physical image address (with SPARE data)
+- Added: Function to inject a KV into an existing NAND image
+- Added: Experimental: G3Fix to resolve compatibility issues with RGH3 and older dashboards (based on g3fix.py by wurthless-electroniks)
+- Fixed: Corona glitch2m patch set for 17559, 15574, 13604
+- Fixed: Warn when PicoFlasher detects an unknown flashconfig on read or write
+- Fixed: Extraction of C-R.bin and key.bin for Winchester consoles now works
+- Fixed: Decryption of devkit bootloader stages in for Extract Files now works correctly
+- Fixed: NAND info panel shows the correct bootloader names for retail and devkit, and properly parses RGH3 images
+- Fixed: RGH3 conversion works properly for non-XDKBuild glitch2m images
+- Fixed: glitch2m image creation now works for all phat board types (workaround added for a bug in XeBuild)
+- Fixed: Workaround for XeBuild bug where KV size being set to 0 for some image types (XeLL on Xenon now shows KV information)
+- Fixed: RGH2to3 now supports RGLoader style images (CB -> CD -> SE chain)
+- Changed: XSVFtool implemented for far better glitch chip programming with xFlasher (replacing UrJTAG)
+- Changed: CPU Key dialog text limit + verification button added
+- Changed: Don't use Falcon board type for everything (Falcon CB_B is still used for Zephyr/Xenon (unless Elpis/Rhea is checked)
+- Changed: The SMC reset limit patch won't be applied for DevGL or JTAG hack types (only Glitch and Glitch2 need it)
+- Changed: Create XeLL now injects the bundled version for JTAG and Glitch2 ECC creation
+- Changed: Updated bundled XeLL
+
+V3.4.0 Bundled XeLL changelog:
+- Fixed: updxell no longer bricks the system
+- Fixed: Virtual fuse support for non-JTAG images (avoid KV decryption errors for zero fuse/glitch2m images)
+- Fixed: Console detection can tell Xenon/Zephyr apart
+- Fixed: XeLL can now be started from the dashboard with XeLL Launch on a glitch or DevGL system
+- Changed: Now based on upstream Free60 XeLL/libxenon (includes a number of general fixes to XeLL/libxenon)
+
 V3.3.0 r4:
 - Added: Improved UI
 - Added: New CPU Key Gen UI

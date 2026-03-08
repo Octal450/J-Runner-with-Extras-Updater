@@ -7,6 +7,7 @@
 	<revision>41</revision>
 	<changelog>
 V3.4.0 r3:
+- Added: Experimental: XeLL Customizer
 - Fixed: PicoFlasher reporting unrecognized flash config
 	</changelog>
 	<changelog-multi>

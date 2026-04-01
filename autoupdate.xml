@@ -1,16 +1,46 @@
 <jrunner>
-	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.4.0-r3/JR-Auto-Update-Delta.zip</delta>
-	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.4.0-r3/J-Runner-with-Extras.zip</full>
-	<md5-delta>A53746DF041F8C75F151D7C418B953BC</md5-delta>
-	<md5-full>55EB71C390DAFD86D0548D0144FFABCC</md5-full>
-	<min-delta-revision>40</min-delta-revision>
-	<revision>41</revision>
+	<delta>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.4.0-r3/J-Runner-with-Extras.zip</delta>
+	<full>https://github.com/Octal450/J-Runner-with-Extras/releases/download/V3.4.0-r4/J-Runner-with-Extras.zip</full>
+	<md5-delta>37C28F3BE90F6135C1411F83E99311B8</md5-delta>
+	<md5-full>37C28F3BE90F6135C1411F83E99311B8</md5-full>
+	<min-delta-revision>41</min-delta-revision>
+	<revision>42</revision>
 	<changelog>
-V3.4.0 r3:
-- Added: Experimental: XeLL Customizer
-- Fixed: PicoFlasher reporting unrecognized flash config
+V3.4.0 r4:
+- Added: BladesDL for 6717, LiveBlock, OG Xbox/XeFu support, and pingpatch are now functional
+- Added: BladesDL now supports loading plugins on 1888 and 6717
+- Added: DirtyPico support (https://github.com/phdussud/pico-dirtyJtag, thanks to Cheez for the initial changes)
+- Added: "Enable DevGL" wizard under the Advanced menu that works with the SDK in addition to SB_priv.bin
+- Added: Prototype Corona ISD sounds under "common/sounds"
+- Added: Support for PicoFlasher under Wine on Linux
+- Added: Support for PicoFlasher V4 firmware (https://codeberg.org/hax360/PicoFlasher)
+- Fixed: Corona DevGL images not booting
+- Fixed: Decryption and extraction of loader stages for DD1, MFG CB_A, and non-zeropaired single CB images
+- Fixed: JTAG XeLL not being auto-deleted after writing if option to do so is enabled
+- Fixed: OG Xbox games are now functional on RGLoader
+- Fixed: Up to 2TB drives are now properly supported in 6717 and 1888 (Thanks @Eaton!)
+- Changed: Improved PicoFlasher COM port and eMMC detection
+- Changed: Updated RGH3 ECCs for Trinity and Corona for improved failure debugging
+- Changed: XSVFtool updated to version 1.2 for DirtyPico support
 	</changelog>
 	<changelog-multi>
+V3.4.0 r4:
+- Added: BladesDL for 6717, LiveBlock, OG Xbox/XeFu support, and pingpatch are now functional
+- Added: BladesDL now supports loading plugins on 1888 and 6717
+- Added: DirtyPico support (https://github.com/phdussud/pico-dirtyJtag, thanks to Cheez for the initial changes)
+- Added: "Enable DevGL" wizard under the Advanced menu that works with the SDK in addition to SB_priv.bin
+- Added: Prototype Corona ISD sounds under "common/sounds"
+- Added: Support for PicoFlasher under Wine on Linux
+- Added: Support for PicoFlasher V4 firmware (https://codeberg.org/hax360/PicoFlasher)
+- Fixed: Corona DevGL images not booting
+- Fixed: Decryption and extraction of loader stages for DD1, MFG CB_A, and non-zeropaired single CB images
+- Fixed: JTAG XeLL not being auto-deleted after writing if option to do so is enabled
+- Fixed: OG Xbox games are now functional on RGLoader
+- Fixed: Up to 2TB drives are now properly supported in 6717 and 1888 (Thanks @Eaton!)
+- Changed: Improved PicoFlasher COM port and eMMC detection
+- Changed: Updated RGH3 ECCs for Trinity and Corona for improved failure debugging
+- Changed: XSVFtool updated to version 1.2 for DirtyPico support
+
 V3.4.0 r3:
 - Fixed: PicoFlasher reporting unrecognized flash config
 
